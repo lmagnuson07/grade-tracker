@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PreMethods
+namespace SemesterGradeTracker
 {
     class Grades
     {
@@ -16,11 +16,11 @@ namespace PreMethods
         {
             if (assessmentName.Length > 50)
             {
-                throw new Exception("The assessment name is to long... must be less than 50 characters");
+                throw new FormatException("The assessment name is to long... must be less than 50 characters");
             }
             else if (assessmentName.Length < 4)
             {
-                throw new Exception("The assessment name must be at least 4 characters long");
+                throw new FormatException("The assessment name must be at least 4 characters long");
             }
             else
             {
@@ -28,7 +28,7 @@ namespace PreMethods
             }
             if (markTotal < 0)
             {
-                throw new Exception("Mark total must be greater than 0");
+                throw new FormatException("Mark total must be greater than 0");
             }
             else
             {
@@ -37,7 +37,7 @@ namespace PreMethods
 
             if (weight < 0)
             {
-                throw new Exception("Weight must be greater than 0");
+                throw new FormatException("Weight must be greater than 0");
             }
             else
             {
@@ -64,11 +64,11 @@ namespace PreMethods
         {
             if (userMark < 0)
             {
-                throw new Exception("User mark must be greater than 0");
+                throw new FormatException("User mark must be greater than 0");
             }
             else if (userMark > GetMaxMark())
             {
-                throw new Exception("The user mark cannot exceed the max mark");
+                throw new FormatException("The user mark cannot exceed the max mark");
             }
             else
             {
@@ -85,4 +85,3 @@ namespace PreMethods
         }
     }
 }
-

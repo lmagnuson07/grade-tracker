@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PreMethods
+namespace SemesterGradeTracker
 {
     class Courses
     {
@@ -16,11 +16,11 @@ namespace PreMethods
         {
             if (className.Length < 4)
             {
-                throw new Exception("The class name cannot be shorter than 4 characters");
+                throw new OverflowException("The class name cannot be shorter than 4 characters");
             }
             else if (className.Length > 50)
             {
-                throw new Exception("The class name cannot be longer than 50 characters");
+                throw new OverflowException("The class name cannot be longer than 50 characters");
             }
             else
             {
@@ -28,7 +28,7 @@ namespace PreMethods
             }
             if (classID.Length != 8)
             {
-                throw new Exception("The class ID must be 8 characters long");
+                throw new OverflowException("The class ID must be 8 characters long");
             }
             else
             {
@@ -37,13 +37,17 @@ namespace PreMethods
         }
         public double GetTotalWeightedMark()
         {
-            return totalWeightedMark;
+            return Math.Round(totalWeightedMark, 2);
         }
         public void SetTotalWeightedMark(double weightedMark)
         {
             if (totalWeightedMark + weightedMark < 0)
             {
-                throw new Exception("This would result in a total weighted mark of less than 0. Check your files...");
+                throw new OverflowException("This would result in a total weighted mark of less than 0. Check your files...");
+            }
+            else if (totalWeightedMark + weightedMark > 100)
+            {
+                throw new OverflowException("This would result in a total weighted mark greater than 100. Check your files...");
             }
             else
             {
@@ -52,17 +56,17 @@ namespace PreMethods
         }
         public double GetTotalWeight()
         {
-            return totalWeight;
+            return Math.Round(totalWeight, 2);
         }
         public void SetTotalWeight(double weight)
         {
             if (totalWeight + weight > 100)
             {
-                throw new Exception("The weight entered would exceed a total weight of 100");
+                throw new OverflowException("The weight entered would exceed a total weight of 100");
             }
             else if (totalWeight + weight < 0)
             {
-                throw new Exception("This would result in a total weight of less than 0. Check your files...");
+                throw new OverflowException("This would result in a total weight of less than 0. Check your files...");
             }
             else
             {
