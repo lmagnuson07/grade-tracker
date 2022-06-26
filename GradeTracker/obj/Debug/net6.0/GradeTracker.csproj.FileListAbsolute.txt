@@ -1,0 +1,15 @@
+C:\Users\logma\OneDrive - NAIT\Documents\GradeTracker\GradeTracker\bin\Debug\net6.0\GradeTracker.exe
+C:\Users\logma\OneDrive - NAIT\Documents\GradeTracker\GradeTracker\bin\Debug\net6.0\GradeTracker.deps.json
+C:\Users\logma\OneDrive - NAIT\Documents\GradeTracker\GradeTracker\bin\Debug\net6.0\GradeTracker.runtimeconfig.json
+C:\Users\logma\OneDrive - NAIT\Documents\GradeTracker\GradeTracker\bin\Debug\net6.0\GradeTracker.dll
+C:\Users\logma\OneDrive - NAIT\Documents\GradeTracker\GradeTracker\bin\Debug\net6.0\GradeTracker.pdb
+C:\Users\logma\OneDrive - NAIT\Documents\GradeTracker\GradeTracker\obj\Debug\net6.0\GradeTracker.csproj.AssemblyReference.cache
+C:\Users\logma\OneDrive - NAIT\Documents\GradeTracker\GradeTracker\obj\Debug\net6.0\GradeTracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\logma\OneDrive - NAIT\Documents\GradeTracker\GradeTracker\obj\Debug\net6.0\GradeTracker.AssemblyInfoInputs.cache
+C:\Users\logma\OneDrive - NAIT\Documents\GradeTracker\GradeTracker\obj\Debug\net6.0\GradeTracker.AssemblyInfo.cs
+C:\Users\logma\OneDrive - NAIT\Documents\GradeTracker\GradeTracker\obj\Debug\net6.0\GradeTracker.csproj.CoreCompileInputs.cache
+C:\Users\logma\OneDrive - NAIT\Documents\GradeTracker\GradeTracker\obj\Debug\net6.0\GradeTracker.dll
+C:\Users\logma\OneDrive - NAIT\Documents\GradeTracker\GradeTracker\obj\Debug\net6.0\refint\GradeTracker.dll
+C:\Users\logma\OneDrive - NAIT\Documents\GradeTracker\GradeTracker\obj\Debug\net6.0\GradeTracker.pdb
+C:\Users\logma\OneDrive - NAIT\Documents\GradeTracker\GradeTracker\obj\Debug\net6.0\GradeTracker.genruntimeconfig.cache
+C:\Users\logma\OneDrive - NAIT\Documents\GradeTracker\GradeTracker\obj\Debug\net6.0\ref\GradeTracker.dll
